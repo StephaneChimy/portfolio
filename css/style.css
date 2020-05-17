@@ -1,0 +1,60 @@
+
+.container-fluid{
+    padding:0px;
+}
+.navigation, footer{
+    background-color: #CCE8CC;
+    height: 100px;
+}
+
+#welcome-section, #contact{
+    padding-top: 150px;
+    text-align: center;
+    background-color: #FCF6E5;
+    height: 100vh;
+    
+}
+.about__portrait{
+    border-radius: 50%;
+    max-width: 200px;
+}
+#projects{
+    text-align: center;
+    padding: 15px;
+}
+.work__title{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.work__img{
+    max-width: 400px;
+    max-height: 250px;
+    border: 1px solid #CCE8CC;    
+}
+.work__img--link{
+    color:black;
+    margin-bottom: 50px;
+}
+.work__img--link:hover{
+    color: black;
+    text-decoration: none;
+}
+.work__img--link:hover .work__img--graph{
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);  
+}
+.work__img--graph{
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.75);
+    margin-bottom: 0;
+    
+}
+.work__figcaption{
+    background-color: #CCE8CC ;   
+}
+footer{
+    vertical-align: middle;
+}
+

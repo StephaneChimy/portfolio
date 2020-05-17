@@ -11,30 +11,88 @@
     </head>
 
     <header>
-        <nav class="navbar bg-light fixed-top justify-content-end">
-            <a href="#about" class="nav-link">About</a>
-            <a href="#work" class="nav-link">Work</a>
+        <nav id="navbar" class="navbar fixed-top justify-content-end navigation">
+            <a href="#welcome-section" class="nav-link">About</a>
+            <a href="#projects" class="nav-link">Work</a>
             <a href="#contact" class="nav-link">Contact</a>
         </nav>
     </header>
 
     <body class="container-fluid">
 
-        <section id="about">
+        <section id="welcome-section">
 
-            <h1>Hello I'm stéphane</h1>
+            <h1>Hello I'm Stéphane</h1>
 
             <p>Welcome to my Portfolio</p>
 
+            <img class="about__portrait" src="image/portrait.jpg" alt="Photo de Stéphane">
+
         </section>
 
-        <section id="work">
+        <section id="projects">
+
+            <h3 class="work__title project-tile">Here is some of my work:</h3>
+
+            <div class="row no-gutters">
+
+                <a href="https://github.com/StephaneChimy/Tribune" class="col-auto mx-auto work__img--link" target="_blanc">
+                    <figure class="work__img--graph">
+                        <img class="work__img" src="image/tribune.png" alt="image d'une tribune"></img>
+                        <figcaption class="work__figcaption">Tribune</figcaption>
+                    </figure>
+                </a>
+            
+            
+                <a href="https://github.com/StephaneChimy/SurveyForm" class="col-auto mx-auto work__img--link" target="_blanc">
+                    <figure class=" work__img--graph">
+                        <img class="work__img" src="image/surveyform.png" alt="image d'une tribune"></img>
+                        <figcaption class="work__figcaption">Survey Form</figcaption>
+                    </figure>
+                </a>
+
+                <a href="https://github.com/StephaneChimy/LandingPage" class="col-auto mx-auto work__img--link" target="_blanc">
+                    <figure class="work__img--graph">
+                        <img class="work__img" src="image/landingpage.png" alt="image d'une tribune"></img>
+                        <figcaption class="work__figcaption">A landing page</figcaption>
+                    </figure>
+                </a>    
+
+                <a href="https://github.com/StephaneChimy/TechnicalDocPage" class="col-auto mx-auto work__img--link" target="_blanc">
+                    <figure class=" work__img--graph">
+                        <img class="work__img" src="image/technicaldoc.png" alt="image d'une tribune"></img>
+                        <figcaption class="work__figcaption">A technical documentation</figcaption>
+                    </figure>
+                </a>
+
+                <a href="https://github.com/StephaneChimy/portfolio" class="col-auto mx-auto work__img--link" target="_blanc">
+                    <figure class=" work__img--graph">
+                        <img class="work__img" src="image/technicaldoc.png" alt="image d'une tribune"></img>
+                        <figcaption class="work__figcaption">Portfolio</figcaption>
+                    </figure>
+                </a>
+                
+
+            </div>
 
         </section>
 
         <section id="contact">
 
+            <h3>Let's work together...</h3>
+            <p><i>How do you like tour coffee?</i></p>
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item"> <a href="https://github.com/StephaneChimy" target="_blank"><i class="fab fa-github"></i> Github</a> </li>
+                <li class="list-inline-item"> <a id="profile-link" href="https://www.freecodecamp.org/stephane-c" target="_blank"><i class="fab fa-free-code-camp"></i> FreeCodeCamp</a> </li>
+                <li class="list-inline-item"> <a href="mailto:stephane.chimy"> <i class="fas fa-envelope"></i> Email</a></li>
+                <li class="list-inline-item"> <a href="tel:+33662065303"> <i class="fas fa-mobile-alt"></i> Call</a></li>
+            </ul>
+
         </section>
+
+        <footer class="navbar justify-content-end navigation">
+            <p>© Created for freeCodeCamp</p>
+        </footer>
         
     
         
@@ -42,3 +100,4 @@
 
 </html>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="https://kit.fontawesome.com/8fcb91adb7.js" crossorigin="anonymous"></script>

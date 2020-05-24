@@ -1,0 +1,94 @@
+.container-fluid {
+  padding: 0px;
+}
+
+.navigation, footer {
+  background-color: #CCE8CC;
+  height: 100px;
+}
+
+.project, #welcome-section, #contact {
+  text-align: center;
+}
+
+#welcome-section {
+  height: 100vh;
+}
+
+#welcome-section, #contact {
+  padding-top: 150px;
+  background-color: #FCF6E5;
+}
+
+#contact {
+  padding-bottom: 150px;
+}
+
+.about__portrait {
+  border-radius: 50%;
+  max-width: 200px;
+}
+
+.project {
+  padding: 30px;
+}
+
+.project-tile {
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.work a, .work a:hover, .contact__link, .contact__link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.work {
+  margin-bottom: 50px;
+}
+
+.work:hover {
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.75);
+}
+
+.work figure {
+  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.75);
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+
+.work__img {
+  max-width: 400px;
+  max-height: 250px;
+  border: 1px solid #CCE8CC;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.work__figcaption {
+  background-color: #CCE8CC;
+  border-radius: 0px 0px 5px 5px;
+  padding: 5px 0px 5px 0px;
+}
+
+.contact button:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.contact button {
+  background: none;
+  border: none;
+}
+
+.btn {
+  background: none;
+  border: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 5px;
+}
+
+footer {
+  vertical-align: middle;
+}
+/*# sourceMappingURL=main.css.map */

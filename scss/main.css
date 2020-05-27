@@ -72,7 +72,7 @@
 
 .contact button:hover {
   transform: scale(1.2);
-  transition: 1s;
+  transition: 500ms;
 }
 
 .contact button {

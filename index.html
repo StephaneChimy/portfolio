@@ -5,16 +5,24 @@
         <meta charset="utf-8" />
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="scss/main.css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Stephane Chimy</title>
     </head>
 
     <header>
-        <nav id="navbar" class="navbar fixed-top justify-content-end navigation">
-            <a href="#welcome-section" class="nav-link">About</a>
-            <a href="#projects" class="nav-link">Work</a>
-            <a href="#contact" class="nav-link">Contact</a>
+        <nav id="navbar" class="navbar navbar-expand fixed-top justify-content-end navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="#welcome-section" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
         </nav>
     </header>
 
@@ -30,62 +38,87 @@
 
         </section>
 
-        <section id="projects">
+        <section id="projects" class="project">
 
-            <h3 class="work__title project-tile">Here is some of my work:</h3>
+            <h3 class="project-tile">Here is some of my work:</h3>
 
             <div class="row no-gutters">
 
-                <a href="https://stephanechimy.github.io/Tribune/" class="col-auto mx-auto work__img--link" target="_blanc">
-                    <figure class="work__img--graph">
-                        <img class="work__img" src="image/tribune.png" alt="image d'une tribune"></img>
-                        <figcaption class="work__figcaption">Tribune</figcaption>
-                    </figure>
-                </a>
+                <div class="col-auto mx-auto work btn">
+                    <a href="https://stephanechimy.github.io/Tribune/"  target="_blanc">
+                        <figure>
+                            <img class="work__img" src="image/tribune.png" alt="image d'une tribune"></img>
+                            <figcaption class="work__figcaption">Tribune</figcaption>
+                        </figure>
+                    </a>
+                </div>
             
-            
-                <a href="https://stephanechimy.github.io/SurveyForm/" class="col-auto mx-auto work__img--link" target="_blanc">
-                    <figure class=" work__img--graph">
-                        <img class="work__img" src="image/surveyform.png" alt="image d'une tribune"></img>
-                        <figcaption class="work__figcaption">Survey Form</figcaption>
-                    </figure>
-                </a>
+                <div class="col-auto mx-auto work btn">
+                    <a href="https://stephanechimy.github.io/SurveyForm/"  target="_blanc">
+                        <figure>
+                            <img class="work__img" src="image/surveyform.png" alt="image d'une tribune"></img>
+                            <figcaption class="work__figcaption">Survey form</figcaption>
+                        </figure>
+                    </a>
+                </div>
 
-                <a href="https://stephanechimy.github.io/LandingPage/" class="col-auto mx-auto work__img--link" target="_blanc">
-                    <figure class="work__img--graph">
-                        <img class="work__img" src="image/landingpage.png" alt="image d'une tribune"></img>
-                        <figcaption class="work__figcaption">A landing page</figcaption>
-                    </figure>
-                </a>    
+                <div class="col-auto mx-auto work btn">
+                    <a href="https://stephanechimy.github.io/LandingPage/"  target="_blanc">
+                        <figure>
+                            <img class="work__img" src="image/landingpage.png" alt="image d'une tribune"></img>
+                            <figcaption class="work__figcaption">A landing page</figcaption>
+                        </figure>
+                    </a>  
+                </div>  
 
-                <a href="https://stephanechimy.github.io/TechnicalDocPage/" class="col-auto mx-auto work__img--link" target="_blanc">
-                    <figure class=" work__img--graph">
-                        <img class="work__img" src="image/technicaldoc.png" alt="image d'une tribune"></img>
-                        <figcaption class="work__figcaption">A technical documentation</figcaption>
-                    </figure>
-                </a>
+                <div class="col-auto mx-auto work btn">
+                    <a href="https://stephanechimy.github.io/TechnicalDocPage/"  target="_blanc">
+                        <figure>
+                            <img class="work__img" src="image/technicaldoc.png" alt="image d'une tribune"></img>
+                            <figcaption class="work__figcaption">A technical documentation</figcaption>
+                        </figure>
+                    </a>
+                </div>
 
-                <a href="https://stephanechimy.github.io/portfolio/" class="col-auto mx-auto work__img--link" target="_blanc">
-                    <figure class=" work__img--graph">
-                        <img class="work__img" src="image/portfolio.png" alt="image d'une tribune"></img>
-                        <figcaption class="work__figcaption">Portfolio</figcaption>
-                    </figure>
-                </a>
+                <div class="col-auto mx-auto work btn">
+                    <a href="https://stephanechimy.github.io/portfolio/"  target="_blanc">
+                        <figure>
+                            <img class="work__img" src="image/portfolio.png" alt="image d'une tribune"></img>
+                            <figcaption class="work__figcaption">Portfolio</figcaption>
+                        </figure>
+                    </a>
+                </div>
                 
 
             </div>
 
         </section>
 
-        <section id="contact">
+        <section id="contact" class="contact">
 
             <h3>Let's work together...</h3>
             <p><i>How do you like your coffee?</i></p>
             <ul class="list-unstyled list-inline">
-                <li class="list-inline-item"> <a href="https://github.com/StephaneChimy" target="_blank"><i class="fab fa-github"></i> Github</a> </li>
-                <li class="list-inline-item"> <a id="profile-link" href="https://www.freecodecamp.org/stephane-c" target="_blank"><i class="fab fa-free-code-camp"></i> FreeCodeCamp</a> </li>
-                <li class="list-inline-item"> <a href="mailto:stephane.chimy"> <i class="fas fa-envelope"></i> Email</a></li>
-                <li class="list-inline-item"> <a href="tel:+33662065303"> <i class="fas fa-mobile-alt"></i> Call</a></li>
+                <li class="list-inline-item">
+                    <button>
+                         <a href="https://github.com/StephaneChimy" target="_blank" class="contact__link"><i class="fab fa-github"></i> Github</a>
+                    </button> 
+                </li>
+                <li class="list-inline-item">
+                    <button>
+                        <a id="profile-link" href="https://www.freecodecamp.org/stephane-c" class="contact__link" target="_blank"><i class="fab fa-free-code-camp"></i> FreeCodeCamp</a>
+                    </button> 
+                </li>
+                <li class="list-inline-item">
+                    <button>
+                        <a href="mailto:stephane.chimy" class="contact__link"> <i class="fas fa-envelope"></i> Email</a>
+                    </button>
+                </li>
+                <li class="list-inline-item">
+                    <button>
+                        <a href="tel:+33662065303" class="contact__link"> <i class="fas fa-mobile-alt"></i> Call</a>
+                    </button>
+                </li>
             </ul>
 
         </section>
@@ -95,9 +128,8 @@
         </footer>
         
     
-        
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <script src="https://kit.fontawesome.com/8fcb91adb7.js" crossorigin="anonymous"></script>   
     </body>
 
 </html>
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-<script src="https://kit.fontawesome.com/8fcb91adb7.js" crossorigin="anonymous"></script>
